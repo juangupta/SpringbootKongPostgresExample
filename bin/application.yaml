@@ -1,0 +1,17 @@
+springfox.documentation.swagger.v2.path: /api-docs
+server.contextPath: /session
+server.port: 8085
+
+spring.datasource.url: jdbc:postgresql://192.168.99.100:31993/kong
+spring.datasource.username: kong
+spring.datasource.password: kong
+
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+spring.jpa.hibernate.ddl-auto: none
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
+
+co.com.bancolombia.service.sessionmanagement.isConcurrentSessionsEnabled: false
+
+# Puede ser createNewSessionAndKillOldSession - refuseNewSessionAndKillOldSession - refuseNewSessionAndKeepOldSession
+co.com.bancolombia.service.sessionmanagement.concurrentSessionsAction: refuseNewSessionAndKillOldSession

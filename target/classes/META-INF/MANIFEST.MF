@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: session-management
+Implementation-Version: 1.0.0
+Built-By: juagomez
+Implementation-Vendor-Id: co.com.bancolombia.service.sessionManagement
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/session-mana
+ gement/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
